@@ -39,7 +39,7 @@ public class MainApp {
       userService.add(user3);
       userService.add(user4);
 
-      List<User> users = userService.listUsers();
+      List<User> users = userService.getUsersList();
       for (User user : users) {
          System.out.println(user.toString());
       }
